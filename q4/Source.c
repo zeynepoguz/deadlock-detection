@@ -107,10 +107,7 @@ int main() {
 		 len = strlen(request[0]);
 
 			 for (p = 0; p < process; p++) {
-				 if (m == 1) {
-					 p = 0;
-				 }
-
+				 
 				 charToInt1D(r[p], request[p], len);
 
 				 int t = 0;
@@ -159,6 +156,11 @@ int main() {
 					 }
 					
 				 }
+				 // added 19.05.19
+				 if (m == 1) {
+					 p = 0;
+				 }
+				//
 
 			 }
 
